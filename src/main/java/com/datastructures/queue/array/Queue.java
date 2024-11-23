@@ -67,6 +67,20 @@ public class Queue {
 
     /**
      *
+     * @return Devuelve el elemento almacenado en front.
+     */
+    public int peek() {
+        int value;
+        if (frontEnd == -1 || frontEnd > rearEnd) {
+            throw new ArrayIndexOutOfBoundsException("Sobrecarga.");
+        } else {
+            value = arrayQueue[frontEnd];
+        }
+        return value;
+    }
+
+    /**
+     *
      * @return Representación String de los valores en cola.
      */
     public String display() {

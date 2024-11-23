@@ -75,4 +75,12 @@ public class QueueTest {
         });
         assertEquals("Sobrecarga.", e.getMessage());
     }
+    
+    @DisplayName("Debería devolver el elemento de front.")
+    @Test
+    void testPeek() {
+        queue.enqueue(1777);
+        queue.enqueue(2888);
+        assertEquals(1777, queue.peek());
+    }
 }

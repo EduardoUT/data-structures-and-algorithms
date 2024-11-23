@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.datastructures.queue.array.QueueTest" time="0.06" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.datastructures.queue.array.QueueTest" time="0.048" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\eduar\AppData\Local\Temp\surefire2955447479800284887\surefirebooter-20241122181329672_3.jar C:\Users\eduar\AppData\Local\Temp\surefire2955447479800284887 2024-11-22T18-13-29_374-jvmRun1 surefire-20241122181329672_1tmp surefire_0-20241122181329672_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\eduar\AppData\Local\Temp\surefire7217676825211051094\surefirebooter-20241123173335825_3.jar C:\Users\eduar\AppData\Local\Temp\surefire7217676825211051094 2024-11-23T17-33-35_613-jvmRun1 surefire-20241123173335825_1tmp surefire_0-20241123173335825_2tmp"/>
     <property name="test" value="com.datastructures.queue.array.QueueTest"/>
     <property name="surefire.test.class.path" value="D:\Documentos\NetBeansProjects\data-structures\target\test-classes;D:\Documentos\NetBeansProjects\data-structures\target\classes;C:\Users\eduar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\eduar\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\eduar\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\eduar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\eduar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\eduar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\eduar\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\eduar\AppData\Local\Temp\surefire2955447479800284887\surefirebooter-20241122181329672_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\eduar\AppData\Local\Temp\surefire7217676825211051094\surefirebooter-20241123173335825_3.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,8 +63,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testQueue" classname="com.datastructures.queue.array.QueueTest" time="0.026"/>
+  <testcase name="testQueue" classname="com.datastructures.queue.array.QueueTest" time="0.018"/>
+  <testcase name="testPeek" classname="com.datastructures.queue.array.QueueTest" time="0.001"/>
   <testcase name="testQueueFull" classname="com.datastructures.queue.array.QueueTest" time="0.003"/>
-  <testcase name="testDequeueOfAnEmptyQueue" classname="com.datastructures.queue.array.QueueTest" time="0.002"/>
+  <testcase name="testDequeueOfAnEmptyQueue" classname="com.datastructures.queue.array.QueueTest" time="0.003"/>
   <testcase name="testDequeue" classname="com.datastructures.queue.array.QueueTest" time="0.001"/>
 </testsuite>
