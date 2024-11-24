@@ -17,6 +17,12 @@ package com.datastructures.queue.array;
  *
  * Acceso: O(1) al ser elementos indexados en un arreglo.
  *
+ * Desventajas:
+ *
+ * Implementar esta estructura implica uso de un tamaño fijo y desperdicio de
+ * memoria al ya no poder reutilizar o acceder a espacios que han sido
+ * eliminados.
+ *
  * @author eduar
  */
 public class Queue {
